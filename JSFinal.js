@@ -10,7 +10,7 @@ Assessment Requirements
 */
 
 // create a variable to hold your NFT's
-const NFTS = []
+const nfts = []
 
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
@@ -24,7 +24,7 @@ const NFT = {
     "bling": _bling
 
 }
-NFTS.push(NFT)
+nfts.push(NFT)
 console.log("Minted: " + _name)
 }
 
@@ -46,10 +46,11 @@ console.log("\n" + NFTS.length);
 }
 
 // call your functions below this line
-mintNFT("Thirdy", "Black", "Sweater", "Silver Pendant")
-mintNFT("Ulric", "Brown", "Flannel", "Silver Chain")
-mintNFT("Keith", "Red", "Cardigan", "Silver Chain")
-mintNFT("Ysabel", "White", "Sweater", "Silver Pendant")
-mintNFT("Maverick", "Blue", "Long Sleeve", "Silver Pendant")
+mintNFT("Chandler", "Blue", "Suit and Tie", "Fox Necklace")
+mintNFT("Denji", "Brown", "Long Sleeve", "Gold Chain")
+mintNFT("Power", "Red", "Flannel", "Cat Necklace")
+mintNFT("Makima", "Orange", "Blazer", "Ring")
+mintNFT("Dani", "Black", "Black Shirt", "Gold Necklace")
+mintNFT("Renn", "Pink", "Kimono", "Kitsune Mask")
 listNFTs();
 getTotalSupply();
