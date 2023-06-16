@@ -10,7 +10,7 @@ Assessment Requirements
 */
 
 // create a variable to hold your NFT's
-const nfts = []
+const NFTS = []
 
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
@@ -24,7 +24,7 @@ const NFT = {
     "bling": _bling
 
 }
-nfts.push(NFT)
+NFTS.push(NFT)
 console.log("Minted: " + _name)
 }
 
